@@ -2,7 +2,7 @@ import { getPermalink, getBlogPermalink, getAsset } from './utils/permalinks';
 
 export const headerData = {
   links: [
-    {
+/*     {
       text: 'Homes',
       links: [
         {
@@ -22,7 +22,7 @@ export const headerData = {
           href: getPermalink('/homes/personal'),
         },
       ],
-    },
+    }, */
     {
       text: 'Pages',
       links: [
@@ -85,7 +85,7 @@ export const headerData = {
         },
       ],
     },
-    {
+/*     {
       text: 'Blog',
       links: [
         {
@@ -109,18 +109,18 @@ export const headerData = {
           href: getPermalink('astro', 'tag'),
         },
       ],
-    },
-    {
+    }, */
+/*     {
       text: 'Widgets',
       href: '#',
-    },
+    }, */
   ],
-  actions: [{ text: 'Download', href: 'https://github.com/onwidget/astrowind', target: '_blank' }],
+  // actions: [{ text: 'Download', href: 'https://github.com/onwidget/astrowind', target: '_blank' }],
 };
 
 export const footerData = {
   links: [
-    {
+/*     {
       title: 'Product',
       links: [
         { text: 'Features', href: '#' },
@@ -131,8 +131,8 @@ export const footerData = {
         { text: 'Pricing', href: '#' },
         { text: 'Resources', href: '#' },
       ],
-    },
-    {
+    }, */
+/*     {
       title: 'Platform',
       links: [
         { text: 'Developer API', href: '#' },
@@ -141,8 +141,8 @@ export const footerData = {
         { text: 'Electron', href: '#' },
         { text: 'AstroWind Desktop', href: '#' },
       ],
-    },
-    {
+    }, */
+/*     {
       title: 'Support',
       links: [
         { text: 'Docs', href: '#' },
@@ -151,8 +151,8 @@ export const footerData = {
         { text: 'Skills', href: '#' },
         { text: 'Status', href: '#' },
       ],
-    },
-    {
+    }, */
+/*     {
       title: 'Company',
       links: [
         { text: 'About', href: '#' },
@@ -163,21 +163,24 @@ export const footerData = {
         { text: 'Social Impact', href: '#' },
         { text: 'Shop', href: '#' },
       ],
-    },
+    }, */
   ],
   secondaryLinks: [
-    { text: 'Terms', href: getPermalink('/terms') },
-    { text: 'Privacy Policy', href: getPermalink('/privacy') },
+    { text: 'Mentions Légales', href: getPermalink('/mentions') },
+    { text: 'A Propos', href: getPermalink('/about') },
+    { text: 'Contact', href: getPermalink('/contact') },
   ],
   socialLinks: [
     { ariaLabel: 'X', icon: 'tabler:brand-x', href: '#' },
     { ariaLabel: 'Instagram', icon: 'tabler:brand-instagram', href: '#' },
     { ariaLabel: 'Facebook', icon: 'tabler:brand-facebook', href: '#' },
-    { ariaLabel: 'RSS', icon: 'tabler:rss', href: getAsset('/rss.xml') },
-    { ariaLabel: 'Github', icon: 'tabler:brand-github', href: 'https://github.com/onwidget/astrowind' },
+    /* { ariaLabel: 'RSS', icon: 'tabler:rss', href: getAsset('/rss.xml') },
+    { ariaLabel: 'Github', icon: 'tabler:brand-github', href: 'https://github.com/onwidget/astrowind' }, */
   ],
   footNote: `
-    <img class="w-5 h-5 md:w-6 md:h-6 md:-mt-0.5 bg-cover mr-1.5 rtl:mr-0 rtl:ml-1.5 float-left rtl:float-right rounded-sm" src="https://onwidget.com/favicon/favicon-32x32.png" alt="onWidget logo" loading="lazy"></img>
-    Made by <a class="text-blue-600 underline dark:text-muted" href="https://onwidget.com/"> onWidget</a> · All rights reserved.
+  <span class="lazy w-5 h-5 md:w-6 md:h-6 md:-mt-0.5 bg-cover mr-1.5 rtl:mr-0 rtl:ml-1.5 float-left rtl:float-right rounded-sm bg-[url(https://onwidget.com/favicon/favicon-32x32.png)]"></span>
+  Créé par <a class="text-yellow-300 hover:underline dark:text-yellow-300" href="https://onwidget.com/" target="_blank"> onWidget</a> - 
+  <span class="w-5 h-5 md:w-6 md:h-6 md:-mt-0.5 bg-cover mr-1.5 rtl:mr-0 rtl:ml-1.5 rtl:float-right rounded-sm bg-[url(https://www.oliviernuber.com/images/Logo-Noir-Fond-Blanc-32x32.png)]"style="position: absolute;"></span>
+  <span style="margin-left: 1.75rem;">Modifié avec </span><span class="animate-pulse text-red-900">♥</span> par <span class="text-yellow-300 dark:text-yellow-300">Olivier Nuber</span> - Tous droits réservés.
   `,
 };

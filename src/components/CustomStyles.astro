@@ -1,5 +1,6 @@
 ---
-import '@fontsource-variable/inter';
+// import '@fontsource-variable/inter';
+import '@fontsource/josefin-sans';
 
 // 'DM Sans'
 // Nunito
@@ -19,22 +20,23 @@ import '@fontsource-variable/inter';
 // Urbanist
 ---
 
-<style is:inline>
+<style is:inline is:global>
   :root {
-    --aw-font-sans: 'InterVariable';
-    --aw-font-serif: 'InterVariable';
-    --aw-font-heading: 'InterVariable';
+    --aw-font-sans: 'josefin-sans';
+    --aw-font-serif: var(--aw-font-sans);
+    --aw-font-heading: var(--aw-font-sans);
 
-    --aw-color-primary: rgb(1 97 239);
-    --aw-color-secondary: rgb(1 84 207);
-    --aw-color-accent: rgb(109 40 217);
+    --aw-color-primary: rgb(176 116 24);
+    --aw-color-secondary: rgb(203 161 53);
+    --aw-color-accent: rgb(130 26 26);
 
     --aw-color-text-heading: rgb(0 0 0);
     --aw-color-text-default: rgb(16 16 16);
     --aw-color-text-muted: rgb(16 16 16 / 66%);
     --aw-color-bg-page: rgb(255 255 255);
 
-    --aw-color-bg-page-dark: rgb(3 6 32);
+    // --aw-color-bg-page-dark: rgb(3 6 32);
+    --aw-color-bg-page-dark: rgb(25 25 25);
 
     ::selection {
       background-color: lavender;
@@ -42,18 +44,18 @@ import '@fontsource-variable/inter';
   }
 
   .dark {
-    --aw-font-sans: 'InterVariable';
-    --aw-font-serif: 'InterVariable';
-    --aw-font-heading: 'InterVariable';
+    --aw-font-sans: 'josefin-sans';
+    --aw-font-serif: var(--aw-font-sans);
+    --aw-font-heading: var(--aw-font-sans);
 
-    --aw-color-primary: rgb(1 97 239);
-    --aw-color-secondary: rgb(1 84 207);
-    --aw-color-accent: rgb(109 40 217);
+    --aw-color-primary: rgb(176 116 24);
+    --aw-color-secondary: rgb(203 161 53);
+    --aw-color-accent: rgb(130 26 26);
 
-    --aw-color-text-heading: rgb(247, 248, 248);
+    --aw-color-text-heading: rgb(0 0 0);
     --aw-color-text-default: rgb(229 236 246);
     --aw-color-text-muted: rgb(229 236 246 / 66%);
-    --aw-color-bg-page: rgb(3 6 32);
+    --aw-color-bg-page: var(--aw-color-bg-page-dark);
 
     ::selection {
       background-color: black;
