@@ -2,6 +2,7 @@ import { getPermalink, getBlogPermalink, getAsset } from './utils/permalinks';
 
 export const headerData = {
   links: [
+    { text: 'Accueil', href: getPermalink('/'), },
     {
       text: 'Homes',
       links: [
@@ -110,12 +111,12 @@ export const headerData = {
         },
       ],
     },
-    {
+/*     {
       text: 'Widgets',
       href: '#',
-    },
+    }, */
   ],
-  actions: [{ text: 'Download', href: 'https://github.com/onwidget/astrowind', target: '_blank' }],
+  // actions: [{ text: 'Download', href: 'https://github.com/onwidget/astrowind', target: '_blank' }],
 };
 
 export const footerData = {
