@@ -16,7 +16,7 @@ Ces dernières sont accessibles sur le Site à la rubrique **"Mentions légales"
 ## EDITION DU SITE
 
 L’édition et la direction de la publication du Site est assurée par : <br>M. Olivier NUBER <br>2 rue du Chapitre<br>30000 Nîmes<br>zéro six 17 85 zéro deux 58<br>contact[arobase]oliviernuber.com<br>
-ci-après l'**"Editeur"**.
+ci-après l'**"Éditeur"**.
 
 ## HEBERGEUR
 
@@ -24,8 +24,16 @@ L'hébergeur du Site est :<br>Hostinger International Ltd, société privée à 
 
 Contact : https://calendly.com/d/ckh8-bzb-z5c
 
+ci-après l'**"Hégergeur"**.
+
 ## ACCES AU SITE
 
 Le Site est normalement accessible, à tout moment, à l'Utilisateur. Toutefois, l’Éditeur pourra, à tout moment, suspendre, limiter ou interrompre le Site afin de procéder, notamment, à des mises à jour ou des modifications de son contenu. L’Éditeur ne pourra en aucun cas être tenu responsable des conséquences éventuelles de cette indisponibilité sur les activités de l'Utilisateur.
 
-Toute utilisation, reproduction, diffusion, commercialisation, modification de toute ou partie du Site﻿, sans autorisation expresse de l’Éditeur est prohibée et pourra entraîner des actions et poursuites judiciaires telles que prévues par la réglementation en vigueur.
+Toute utilisation, reproduction, diffusion, commercialisation, modification de toute ou partie du Site, sans autorisation expresse de l’Éditeur est prohibée et pourra entraîner des actions et poursuites judiciaires telles que prévues par la réglementation en vigueur.
+
+## VIE PRIVÉE & CONFIDENTIALITÉ
+
+Le site ne collecte aucune données personnelles et n'utilise aucun "cookie".
+
+Le site n'est pas responsable des éventuelles "cookies" utiliser par l'hébergeur. Merci de vous référer directement à l'hébergeur au besoin.
