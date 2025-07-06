@@ -7,7 +7,7 @@ _Dernière mise à jour_ : _2 Juin 2025_
 
 Veuillez lire attentivement ces conditions avant d'utiliser notre service.
 
-Conformément aux dispositions de la loi n°2004-575 du 21 juin 2004 pour la Confiance en l’économie numérique, il est porté à la connaissance des utilisateurs et visiteurs, ci-après l' "Utilisateur", du site <br> https://photo.oliviernuber.com , ci-après le "Site", les présentes mentions légales.
+Conformément aux dispositions de la loi n°2004-575 du 21 juin 2004 pour la Confiance en l’économie numérique, il est porté à la connaissance des utilisateurs et visiteurs, ci-après l' "Utilisateur", du site <br> _https://photo.oliviernuber.com_ , ci-après le "Site", les présentes mentions légales.
 
 La connexion et la navigation sur le Site par l’Utilisateur implique acceptation intégrale et sans réserve des présentes mentions légales.
 
@@ -15,14 +15,14 @@ Ces dernières sont accessibles sur le Site à la rubrique **"Mentions légales"
 
 ## EDITION DU SITE
 
-L’édition et la direction de la publication du Site est assurée par : <br>M. Olivier NUBER <br>2 rue du Chapitre<br>30000 Nîmes<br>zéro six 17 85 zéro deux 58<br>contact[arobase]oliviernuber.com<br>
+L’édition et la direction de la publication du Site est assurée par : <br>M. Olivier Nuber <br>2 rue du Chapitre<br>30000 Nîmes<br>zéro six 17 85 zéro deux 58<br>contact[arobase]oliviernuber.com<br>
 ci-après l'**"Éditeur"**.
 
 ## HEBERGEUR
 
 L'hébergeur du Site est :<br>Hostinger International Ltd, société privée à responsabilité limitée de Chypre<br> dont le siège social est situé au : <br> 61 Lordou Vironos str. <br>6023 Larnaca <br>Chypre
 
-Contact : https://calendly.com/d/ckh8-bzb-z5c
+Contact : <a href="https://calendly.com/d/ckh8-bzb-z5c" target="_blank">ici</a><span class="text-sm text-yellow-300 dark:text-yellow-300"> _(ce lien ouvre une nouvelle fenêtre ou onglet)_</span>
 
 ci-après l'**"Hégergeur"**.
 
