@@ -11,6 +11,9 @@ import Steps from '~/components/widgets/Steps.astro';
 import BlogLatestPosts from '~/components/widgets/BlogLatestPosts.astro';
 import { getPermalink } from '~/utils/permalinks';
 
+import photonbr from '../assets/images/hero-onbr1.png';
+import { Image } from 'astro:assets';
+
 const metadata = {
   title: 'Olivier Nuber — Photographe & Vidéaste - Bienvenue !',
 };
@@ -91,6 +94,7 @@ const metadata = {
       loading: 'eager',
     }}
   >
+  
     <Fragment slot="content">
       <h2 class="text-2xl font-bold tracking-tight dark:text-white sm:text-3xl mb-2">About me</h2>
       <p>
