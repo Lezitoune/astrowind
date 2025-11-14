@@ -45,48 +45,15 @@ const metadata = {
   <!-- Hero2 Widget ******************* -->
 
   <Hero
-    id="hero"
-    title="Sarah Johnson"
-    tagline="Personal Web Demo"
-    actions={[{ variant: 'primary', text: 'Hire me', href: getPermalink('/contact#form') }]}
-  >
-    <Fragment slot="subtitle">
-      I'm a Graphic Designer passionate about crafting visual stories. <br /> With 5 years of experience and a degree from
-      New York University's School of Design. I infuse vitality into brands and designs, transforming concepts into captivating
-      realities.
-    </Fragment>
-  </Hero>
-
-  <!-- Content Widget **************** -->
-
-  <Content
-    id="about"
-    columns={3}
-    items={[
+    actions={[
       {
-        icon: 'tabler:brand-dribbble',
-        callToAction: {
-          target: '_blank',
-          text: 'Dribbble',
-          href: '#',
-        },
+        variant: 'primary',
+        text: 'Get template',
+        href: 'https://github.com/arthelokyo/astrowind',
+        target: '_blank',
+        icon: 'tabler:download',
       },
-      {
-        icon: 'tabler:brand-behance',
-        callToAction: {
-          target: '_blank',
-          text: 'Behance',
-          href: '#',
-        },
-      },
-      {
-        icon: 'tabler:brand-pinterest',
-        callToAction: {
-          target: '_blank',
-          text: 'Pinterest',
-          href: '#',
-        },
-      },
+      { text: 'Learn more', href: '#features' },
     ]}
     image={{
       src: 'https://images.unsplash.com/photo-1491349174775-aaafddd81942?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80',
@@ -389,18 +356,12 @@ const metadata = {
     actions={[
       {
         variant: 'primary',
-        text: 'Hire me',
-        href: '/',
+        text: 'Get template',
+        href: 'https://github.com/onwidget/astrowind',
+        target: '_blank',
+        icon: 'tabler:download',
       },
     ]}
-  />
-
-  <!-- BlogLatestPost Widget **************** -->
-
-  <BlogLatestPosts
-    id="blog"
-    title="Explore my insightful articles on my blog"
-    information={`Dive into a realm of design wisdom and creative inspiration, where you'll find invaluable insights, practical tips, and captivating narratives that elevate and enrich your creative journey.`}
   >
     <Fragment slot="bg">
       <div class="absolute inset-0 bg-blue-50 dark:bg-transparent"></div>
