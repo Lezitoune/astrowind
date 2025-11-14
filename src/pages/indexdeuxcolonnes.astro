@@ -1,0 +1,101 @@
+---
+import Layout from '~/layouts/PageLayout.astro';
+
+import HeroDeuxColonnes from '~/components/widgets/HeroDeuxColonnes.astro';
+import ContentDeuxColonnes from '~/components/widgets/ContentDeuxColonnes.astro';
+import CallToAction from '~/components/widgets/CallToAction.astro';
+import { getPermalink } from '~/utils/permalinks';
+
+import { Image } from 'astro:assets';
+import heroonbr2 from '../assets/images/heroonbr2.png';
+
+const metadata = {
+  title: 'Olivier Nuber — Photographe & Vidéaste - Bienvenue !',
+};
+---
+
+<Layout metadata={metadata}>
+  <Fragment slot="announcement"></Fragment>
+
+  <HeroDeuxColonnes
+    id="hero"
+    title="Olivier Nuber"
+    tagline="Bienvenue !"
+    actions={[{ variant: 'primary', text: 'Prenez Contact !', href: getPermalink('/contact#form') }]}
+  >
+    <Fragment slot="subtitle">
+      Photographe & vidéaste
+    </Fragment>
+  </Hero>
+
+  <!-- Content Widget **************** -->
+
+  <ContentDeuxColonnes
+    id="about"
+    columns={3}
+    items={[
+      {
+        icon: 'tabler:brand-dribbble',
+        callToAction: {
+          target: '_blank',
+          text: 'Dribbble',
+          href: '#',
+        },
+      },
+      {
+        icon: 'tabler:brand-behance',
+        callToAction: {
+          target: '_blank',
+          text: 'Behance',
+          href: '#',
+        },
+      },
+      {
+        icon: 'tabler:brand-pinterest',
+        callToAction: {
+          target: '_blank',
+          text: 'Pinterest',
+          href: '#',
+        },
+      },
+    ]}
+    image={{
+      src: 'https://images.unsplash.com/photo-1491349174775-aaafddd81942?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80',
+      alt: 'Colorful Image',
+      loading: 'eager',
+    }}
+  >
+  
+    <Fragment slot="content">
+      <h2 class="text-2xl font-bold tracking-tight dark:text-white sm:text-3xl mb-2">A propos de moi</h2>
+      <p class="text-justify">
+        Je suis est un photographe et vidéaste indépendant tombé tel Obelix dans la cuve à révélateur du labo photo de ma maman, photographe professionnelle.
+      </p>
+      <br />
+      <p  class="text-justify">
+        Passionné par les humains et leurs histoires de vie qui se reflètent dans toutes les expressions de leur visage, les regards, les sourires, les grimaces, les petites ou grandes rides, les mains, ... 
+      </p>
+      <br />
+      <p class="text-justify">Je propose des séances de photographie personnalisées pour ceux qui recherchent l'originalité, que ce soit à l'intérieur de votre maison dans votre propre environnement avec ou sans le reste de la famille, à l'extérieur dans la nature ou sur votre lieu de travail. Cela ou toute autre occasion spéciale telle qu'un mariage, une grossesse, ...</p>
+    </Fragment>
+
+    <Fragment slot="bg">
+      <div class="absolute inset-0 bg-blue-50 dark:bg-transparent"></div>
+    </Fragment>
+  </Content>
+
+  <!-- CallToAction Widget *********** -->
+
+  <CallToAction
+    title="Créons ensemble"
+    subtitle="Je suis prêt. Et vous ?"
+    actions={[
+      {
+        variant: 'primary',
+        text: 'Prenons contact',
+        href: '/',
+      },
+    ]}
+  />
+
+</Layout>
